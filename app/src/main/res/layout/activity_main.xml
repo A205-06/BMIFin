@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_huanying">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎进入BMI~"
+        android:textSize="30sp"
+        android:textColor="#eee"
+        android:singleLine="true"
+        android:id="@+id/textView9"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="93dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   mellow yellow全员关注您的健康。"
+        android:textSize="15sp"
+        android:textColor="#eee"
+        android:singleLine="true"
+        android:id="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"></TextView>
+
+</RelativeLayout>
